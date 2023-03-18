@@ -30,7 +30,7 @@ hc keybind $Mod-Shift-c close
 hc keybind $Mod-Return spawn "${TERMINAL:-xterm}" # use your $TERMINAL with xterm as fallback
 hc keybind $Mod-d spawn dmenu_run
 
-hc keybind $Mod-n spawn -t note.sh xterm
+hc keybind $Mod-n spawn xterm -e "/home/rj/bin/scripts/note.sh"
 
 # basic movement in tiling and floating mode
 # focusing clients
