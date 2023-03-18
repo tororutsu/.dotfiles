@@ -14,5 +14,9 @@ alias shutdown='sudo shutdown'
 alias vim='hx'
 
 alias ls='exa --icons'
+alias cat='bat'
 
 alias dot='/usr/bin/git --git-dir=/home/rj/.dotfiles/ --work-tree=/home/rj'
+
+alias hc='herbstclient'
+complete -F _herbstclient_complete -o nospace hc
