@@ -6,6 +6,8 @@
 
 config_version: 2
 settings:
+  colors.webpage.darkmode.enabled:
+    global: true
   content.notifications.enabled:
     https://www.reddit.com: true
     https://www.youtube.com: false
