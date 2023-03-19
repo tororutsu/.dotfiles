@@ -11,7 +11,7 @@ alias poweroff='sudo poweroff'
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown'
 
-alias vim='hx'
+alias vim='lvim'
 
 alias ls='exa --icons'
 alias cat='bat'
